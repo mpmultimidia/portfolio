@@ -7,7 +7,7 @@ const outputDirectory = fileURLToPath(new URL("./dist", import.meta.url));
 
 export default defineConfig({
   root: appRoot,
-  base: "/Portfolio/",
+  base: "/portfolio/",
   plugins: [react()],
   build: {
     outDir: outputDirectory,
