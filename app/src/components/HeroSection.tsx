@@ -76,10 +76,8 @@ export function HeroSection() {
     <section id="inicio" className="hero-section" aria-labelledby="hero-title">
       <div className="hero-copy">
         <p className="hero-greeting">Olá, eu sou</p>
-        <p className="portfolio-eyebrow">
-          Analista de TI <span aria-hidden="true">·</span> Suporte técnico
-          <span aria-hidden="true">·</span> Implantação de sistemas
-          <span aria-hidden="true">·</span> Rio de Janeiro, RJ
+        <p className="portfolio-eyebrow" aria-hidden="true">
+          &nbsp;
         </p>
         <h1 id="hero-title">
           <span>Marcos Paulo</span>
