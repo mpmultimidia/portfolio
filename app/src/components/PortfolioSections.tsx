@@ -6,32 +6,32 @@ export function AboutSection() {
     <section id="sobre" className="content-section about-section">
       <div className="section-heading">
         <p className="section-kicker">Sobre</p>
-        <h2>Produto com estratégia, tecnologia e foco em valor.</h2>
+        <h2>Atendimento técnico com visão de operação e qualidade.</h2>
       </div>
       <div className="about-content">
         <p>
-          Ao longo de mais de 15 anos, transformei desafios complexos em
-          produtos digitais de alto impacto. Minha trajetória passa por meios
-          de pagamento, soluções em nuvem e pelo uso estratégico da inteligência
-          artificial generativa.
+          Profissional de TI com mais de 25 anos de experiência em suporte,
+          implantação de sistemas, automação comercial, redes, infraestrutura e
+          atendimento a usuários e clientes.
         </p>
         <p>
-          Uno estratégia, dados e inovação para aproximar necessidades de
-          clientes dos objetivos do negócio, liderando equipes e ciclos de
-          produto do discovery à entrega.
+          Ao longo da carreira, atuei em ambientes de restaurantes, varejo,
+          empresas de tecnologia e serviços de TI, com foco em estabilidade,
+          SLA, treinamento e resolução de problemas em ambientes reais e com
+          alto volume de demandas.
         </p>
         <div className="impact-grid" aria-label="Resultados profissionais">
           <article className="impact-item">
-            <strong>+30%</strong>
-            <span>Aumento na satisfação com novos produtos</span>
+            <strong>25+</strong>
+            <span>anos de experiência em TI e suporte técnico</span>
           </article>
           <article className="impact-item">
-            <strong>25%</strong>
-            <span>Redução no tempo de entrega com low-code</span>
+            <strong>N1/N2</strong>
+            <span>atendimento em suporte técnico e gestão de chamados</span>
           </article>
           <article className="impact-item">
-            <strong>98%</strong>
-            <span>Lançamentos sem defeitos com QA e testes A/B</span>
+            <strong>Delivery</strong>
+            <span>integração com iFood, Keeta e Rappi em operação comercial</span>
           </article>
         </div>
       </div>
@@ -47,33 +47,25 @@ export function ProjectsSection() {
       aria-labelledby="projects-title"
     >
       <div className="section-heading">
-        <p className="section-kicker">Projetos e publicações técnicas</p>
-        <h2 id="projects-title">Projetos</h2>
+        <p className="section-kicker">Experiência e atuação</p>
+        <h2 id="projects-title">Projetos e entregas</h2>
         <p>
-          Projetos recentes em inteligência artificial e conteúdos técnicos,
-          além de produtos digitais desenvolvidos anteriormente.
+          Atividades e entregas de suporte, implantação e operação em sistemas de
+          automação comercial, redes, infraestrutura e segurança.
         </p>
       </div>
       <RecentProjects />
-      <p className="project-group-label">Produtos digitais</p>
+      <p className="project-group-label">Atividades técnicas</p>
       <div className="project-grid">
         <article className="project-card">
-          <p className="project-category">Delivery · Plataforma digital</p>
-          <h3>HungryGo</h3>
+          <p className="project-category">Automação comercial</p>
+          <h3>Implantação de sistemas para restaurantes e varejo</h3>
           <p>
-            Plataforma de delivery e gestão de pedidos para restaurantes,
-            cardápios e operações.
+            Suporte e configuração de sistemas de faturamento, estoque,
+            automatização comercial e integração com plataformas de delivery.
           </p>
-          <a
-            className="text-link"
-            href="https://github.com/alessander-dutra/hungry-go-page"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Ver projeto no GitHub <span aria-hidden="true">↗</span>
-          </a>
           <ul className="project-tags" aria-label="Tecnologias utilizadas">
-            {["React 18", "TypeScript", "Vite", "Tailwind CSS", "Node.js"].map(
+            {["Automação comercial", "iFood", "Keeta", "Rappi", "Sistemas de faturamento"].map(
               (technology) => (
                 <li key={technology}>{technology}</li>
               ),
@@ -81,22 +73,15 @@ export function ProjectsSection() {
           </ul>
         </article>
         <article className="project-card">
-          <p className="project-category">Food service · Full-stack</p>
-          <h3>Menu Digital Pro</h3>
+          <p className="project-category">Infraestrutura e TI</p>
+          <h3>Rede, suporte e manutenção de equipamentos</h3>
           <p>
-            Sistema de cardápio digital com painel administrativo, carrinho,
-            checkout e gestão de pedidos.
+            Administração de redes, suporte a usuários, manutenção de
+            computadores e equipamentos, além de suporte em infraestrutura e
+            segurança eletrônica.
           </p>
-          <a
-            className="text-link"
-            href="https://github.com/alessander-dutra/Menu-Digital-Pro-v1"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Ver projeto no GitHub <span aria-hidden="true">↗</span>
-          </a>
           <ul className="project-tags" aria-label="Tecnologias utilizadas">
-            {["React 18", "TypeScript", "Tailwind CSS", "Express", "PostgreSQL"].map(
+            {["Redes", "Windows Server", "CFTV", "VPN", "Backups"].map(
               (technology) => (
                 <li key={technology}>{technology}</li>
               ),
@@ -127,7 +112,7 @@ export function buildContactMailto({
     body,
   });
 
-  return `mailto:alessander.dutra.santos@gmail.com?${query.toString()}`;
+  return `mailto:manager.marcos.paulo@gmail.com?${query.toString()}`;
 }
 
 function handleContactSubmit(event: FormEvent<HTMLFormElement>) {
@@ -161,23 +146,23 @@ export function ContactSection() {
           <p className="section-kicker">Vamos conversar</p>
           <h2 id="contact-title">Entre em contato</h2>
           <p>
-            Para conversas sobre produtos digitais, IA generativa e estratégia
-            de produto, fale comigo pelos canais abaixo ou deixe uma mensagem.
+            Para falar sobre suporte técnico, implantação de sistemas, redes,
+            automação comercial e infraestrutura, use os canais abaixo.
           </p>
           <div className="contact-links">
-            <a href="mailto:alessander.dutra.santos@gmail.com">
+            <a href="mailto:manager.marcos.paulo@gmail.com">
               <span aria-hidden="true">✉</span>
-              alessander.dutra.santos@gmail.com
+              manager.marcos.paulo@gmail.com
             </a>
             <a
-              href="https://linkedin.com/in/alessander-dutra"
+              href="https://www.linkedin.com/in/marcos-a-machado/"
               target="_blank"
               rel="noreferrer"
             >
               <span aria-hidden="true">in</span>
               LinkedIn
             </a>
-            <a href="https://wa.me/5511940538426" target="_blank" rel="noreferrer">
+            <a href="https://wa.me/5521974860902" target="_blank" rel="noreferrer">
               <span aria-hidden="true">↗</span>
               WhatsApp
             </a>
@@ -240,11 +225,11 @@ export function SiteFooter() {
       <div className="footer-top">
         <a className="footer-brand" href="#inicio">
           <span className="brand-mark" aria-hidden="true">
-            AD
+            MM
           </span>
           <span>
-            <strong>Alessander Dutra</strong>
-            <small>Product Manager</small>
+            <strong>Marcos Paulo Antunes Machado</strong>
+            <small>Analista de TI</small>
           </span>
         </a>
         <a className="back-to-top" href="#inicio">
@@ -269,13 +254,13 @@ export function SiteFooter() {
       </nav>
       <div className="footer-bottom">
         <p>
-          © {new Date().getFullYear()} Alessander Dutra. Todos os direitos
-          reservados.
+          © {new Date().getFullYear()} Marcos Paulo Antunes Machado. Todos os
+          direitos reservados.
         </p>
-        <p>Product Manager · São Paulo, Brasil</p>
+        <p>Analista de TI · Rio de Janeiro – RJ</p>
         <nav className="footer-social" aria-label="Redes sociais no rodapé">
           <a
-            href="https://linkedin.com/in/alessander-dutra"
+            href="https://www.linkedin.com/in/marcos-a-machado/"
             aria-label="LinkedIn"
             target="_blank"
             rel="noreferrer"
@@ -284,17 +269,7 @@ export function SiteFooter() {
               <path d="M5.2 3.5a2.2 2.2 0 1 0 0 4.4 2.2 2.2 0 0 0 0-4.4ZM3.4 9.5H7v11H3.4zm5.9 0h3.4V11h.1a3.7 3.7 0 0 1 3.3-1.8c3.5 0 4.2 2.3 4.2 5.3v6h-3.6v-5.3c0-1.3 0-3-1.9-3s-2.2 1.4-2.2 2.9v5.4H9.3z" />
             </svg>
           </a>
-          <a
-            href="https://github.com/alessander-dutra"
-            aria-label="GitHub"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 .9a11.1 11.1 0 0 0-3.5 21.6c.6.1.8-.2.8-.6v-2c-3.1.7-3.8-1.3-3.8-1.3-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1.7 2.2 3.9 1.6.1-.7.4-1.2.7-1.5-2.5-.3-5.1-1.3-5.1-5.5 0-1.2.4-2.2 1.1-3-.1-.3-.5-1.5.1-3.1 0 0 .9-.3 3.1 1.1a10.6 10.6 0 0 1 5.7 0c2.2-1.4 3.1-1.1 3.1-1.1.6 1.6.2 2.8.1 3.1.7.8 1.1 1.8 1.1 3 0 4.2-2.6 5.2-5.1 5.5.4.3.8 1 .8 2v3c0 .4.2.7.8.6A11.1 11.1 0 0 0 12 .9Z" />
-            </svg>
-          </a>
-          <a href="mailto:alessander.dutra.santos@gmail.com" aria-label="E-mail">
+          <a href="mailto:manager.marcos.paulo@gmail.com" aria-label="E-mail">
             <svg
               aria-hidden="true"
               viewBox="0 0 24 24"
@@ -309,7 +284,7 @@ export function SiteFooter() {
             </svg>
           </a>
           <a
-            href="https://wa.me/5511940538426"
+            href="https://wa.me/5521974860902"
             aria-label="WhatsApp"
             target="_blank"
             rel="noreferrer"

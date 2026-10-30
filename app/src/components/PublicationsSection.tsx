@@ -1,19 +1,19 @@
 const publications = [
   {
-    title: "Explorando o Universo do Machine Learning",
-    date: "Setembro de 2025",
-    dateTime: "2025-09",
+    title: "Suporte técnico e atendimento em automação comercial",
+    date: "Experiência profissional",
+    dateTime: "2025",
     description:
-      "Introdução aos fundamentos, tipos de aprendizado de máquina, etapas de um projeto de ML, aplicações práticas e considerações de ética.",
-    href: "https://notebooklm.google.com/notebook/afc377f1-2806-440f-9183-7a4a359badfc",
+      "Práticas de suporte, atendimento ao cliente, gestão de SLA e implantação de sistemas para restaurantes e varejo.",
+    href: "https://www.linkedin.com/in/marcos-a-machado/",
   },
   {
-    title: "Principais Tendências para o Futuro da Alimentação em 2025",
-    date: "Maio de 2025",
-    dateTime: "2025-05",
+    title: "Infraestrutura, redes e segurança eletrônica",
+    date: "Experiência profissional",
+    dateTime: "2022",
     description:
-      "Uma leitura sobre mudanças de consumo, tecnologia e gestão que influenciam a transformação do setor de food service.",
-    href: "https://gebwwjsr.manus.space",
+      "Acompanhamento de redes, infraestrutura, CFTV, segurança e suporte técnico em ambientes corporativos e comerciais.",
+    href: "https://www.linkedin.com/in/marcos-a-machado/",
   },
 ];
 
@@ -25,11 +25,11 @@ export function PublicationsSection() {
       aria-label="Publicações"
     >
       <div className="section-heading">
-        <p className="section-kicker">Ideias e perspectivas</p>
-        <h2>Publicações</h2>
+        <p className="section-kicker">Áreas de atuação</p>
+        <h2>Publicações e destaques</h2>
         <p>
-          Conteúdos sobre inteligência artificial, aprendizado de máquina e
-          transformação de produtos e mercados.
+          Temas diretamente ligados a suporte técnico, automação comercial,
+          infraestrutura e otimização de operações.
         </p>
       </div>
       <div className="publication-grid">
@@ -41,7 +41,7 @@ export function PublicationsSection() {
             <h3>{title}</h3>
             <p>{description}</p>
             <a href={href} target="_blank" rel="noreferrer">
-              Ler publicação: {title}
+              Ler mais
               <span aria-hidden="true"> ↗</span>
             </a>
           </article>

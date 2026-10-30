@@ -1,107 +1,71 @@
 const competencyGroups = [
   {
-    title: "Estratégia e gestão de produto",
+    title: "Suporte e atendimento",
     skills: [
-      "Estratégia de produto",
-      "Estratégia de produto SaaS",
-      "Marketplace Product Strategy",
-      "Product Lifecycle Management",
-      "Product Marketing",
-      "Product Analytics",
-      "Agile Product Discovery",
-      "Discovery & Delivery com IA",
-      "Priorização de roadmap",
-      "OKRs e KPIs de produto",
-      "Customer Journey Mapping",
-      "Pesquisa de mercado e competitiva",
-      "Levantamento de requisitos",
-      "Estratégia de posicionamento",
-      "Criação de materiais para vendas",
-      "Go-To-Market",
-      "Lançamento de produtos",
+      "Suporte técnico N1 e N2",
+      "Atendimento a usuários e clientes",
+      "Gestão de chamados",
+      "Acompanhamento de SLA",
+      "Incidentes e filas de suporte",
+      "Atendimento presencial e remoto",
+      "Relacionamento com fornecedores",
     ],
   },
   {
-    title: "Inteligência artificial aplicada",
+    title: "Implantação e treinamento",
     skills: [
-      "IA generativa",
-      "ChatGPT",
-      "Claude",
-      "Notion AI",
-      "NotebookLM",
-      "Microsoft Copilot",
-      "Engenharia de prompts",
-      "GPTs e assistentes personalizados",
-      "IA para negócios",
-      "IA aplicada a produtos digitais",
-      "Agentes de IA",
-      "Fundamentos de RAG e arquitetura vetorial",
+      "Implantação de sistemas",
+      "Configuração de parâmetros",
+      "Treinamento de usuários",
+      "Automação comercial",
+      "Certificados digitais",
+      "VPN e telefonia IP",
+      "Softphones e ramais",
     ],
   },
   {
-    title: "Dados, arquitetura e integrações",
+    title: "Infraestrutura e redes",
     skills: [
-      "Power BI",
+      "Redes cabeadas e sem fio",
+      "Administração de redes",
+      "Servidores e infraestrutura",
+      "Windows Server",
+      "Linux Ubuntu",
+      "CFTV e segurança eletrônica",
+      "Backup e monitoramento",
+    ],
+  },
+  {
+    title: "Sistemas e integrações",
+    skills: [
+      "Firebird",
       "SQL Server",
-      "SQL",
       "MySQL",
-      "PL/SQL",
-      "Oracle Database",
-      "SQL Server Reporting Services",
-      "ETL e integração de dados",
-      "APIs e plataformas de integração",
-      "Microsserviços",
-      "Arquitetura de sistemas",
-      "Business Intelligence",
-      "Tecnologias Microsoft",
-      "Gestão de relacionamento com o cliente (CRM)",
-      "AWS",
-      "Oracle Cloud",
-      "Sistemas de PDV",
-    ],
-  },
-  {
-    title: "Entrega, qualidade e operações",
-    skills: [
-      "Meios de pagamento e PCI-DSS",
-      "Scrum",
-      "Kanban",
-      "Metodologias Agile",
-      "Gestão ágil de projetos",
-      "Gestão de programas e projetos de TI",
-      "DevOps",
-      "ITIL",
-      "Management 3.0",
-      "Testes de software e QA",
-      "Testes A/B",
-      "Design de UX/UI",
-      "Design thinking",
-      "Gestão de infraestrutura e operações de TI",
-      "Jira",
-      "Confluence",
-      "Lean Six Sigma",
-      "Plataformas low-code",
+      "Microsoft Access",
+      "FoxPro",
+      "ServiceNow",
+      "iFood",
+      "Keeta",
+      "Rappi",
+      "Sistemas de faturamento e estoque",
+      "DRE e relatórios gerenciais",
     ],
   },
 ];
 
 const professionalSkills = [
-  "Liderança de equipes",
-  "Liderança multifuncional",
-  "Gestão de stakeholders",
-  "Colaboração entre equipes",
-  "Planejamento estratégico",
-  "Análise de negócios",
-  "Capacidade analítica",
-  "Comunicação",
-  "Comunicação escrita",
-  "Resolução de problemas",
+  "Supervisão de equipe técnica",
+  "Gestão de fornecedores",
+  "Atendimento ao cliente",
+  "Controle de SLA",
+  "Resolução de incidentes",
+  "Organização de suporte",
+  "Planejamento e execução de implantação",
+  "Administração de rede e infraestrutura",
+  "Treinamento de usuários",
+  "Acompanhamento de KPIs",
+  "Boa comunicação técnica",
   "Trabalho em equipe",
-  "Experiência do cliente",
-  "Gestão de operações",
-  "Mentoria e desenvolvimento",
-  "Eficácia e escalabilidade",
-  "Melhoria contínua",
 ];
 
 export function CompetenciesSection() {
@@ -115,8 +79,8 @@ export function CompetenciesSection() {
         <p className="section-kicker">Conhecimentos e atuação</p>
         <h2 id="skills-title">Skills &amp; competências</h2>
         <p>
-          Produto digital, IA aplicada, dados e integração de plataformas,
-          conectados à liderança e à entrega de resultados.
+          Atuação em suporte técnico, automação comercial, redes, infraestrutura
+          e implantação de sistemas em ambientes corporativos e comerciais.
         </p>
       </div>
       <div className="skills-grid">
@@ -183,8 +147,7 @@ export function CompetenciesSection() {
             ))}
           </ul>
           <p className="skills-note">
-            Da estratégia ao delivery: conectando clientes, tecnologia, dados
-            e objetivos do negócio.
+            Resolução prática, suporte de excelência e execução estável em TI.
           </p>
         </article>
       </div>

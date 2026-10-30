@@ -35,12 +35,12 @@ export function SiteHeader({ isDark, onToggleTheme }: SiteHeaderProps) {
       </a>
       <header className="site-header">
         <div className="header-inner">
-          <a className="brand" href="#inicio" aria-label="Alessander Dutra, início">
+          <a className="brand" href="#inicio" aria-label="Marcos Paulo Antunes Machado, início">
             <span className="brand-mark" aria-hidden="true">
-              AD
+              MM
             </span>
             <span className="brand-copy">
-              <span className="brand-name">Alessander Dutra</span>
+              <span className="brand-name">Marcos Paulo Antunes Machado</span>
               <span className="brand-caption">Portfólio</span>
             </span>
           </a>

@@ -1,39 +1,39 @@
 const recentProjects = [
   {
-    title: "The Prompt Engineering Playbook for Product Ecosystems",
-    category: "IA generativa · Engenharia de prompts",
-    startDate: "2026-05",
-    startLabel: "mai. de 2026",
+    title: "Implantação de sistemas para restaurantes e varejo",
+    category: "Suporte e automação comercial",
+    startDate: "2025-02",
+    startLabel: "fev/2025",
     description:
-      "Passei semanas estudando Engenharia de Prompts a fundo: técnicas, frameworks, casos práticos e tudo que separa um prompt mediano de um prompt que realmente entrega resultado.",
+      "Atuação na implantação, configuração e treinamento de sistemas de automação comercial, com foco em atendimento a clientes, operação e redução de falhas no uso diário.",
     summary:
-      "Organizei o conteúdo em um NotebookLM público para você acessar, explorar e estudar no seu ritmo.",
+      "Entrega de suporte técnico com acompanhamento de SLA e orientação para uso de faturamento, estoque e relatórios gerenciais.",
     highlights: [
-      "Chain-of-Thought, Few-Shot, Zero-Shot e Role Prompting",
-      "Como reduzir alucinações e aumentar a precisão",
-      "Técnicas avançadas para usar com GPT, Gemini e Claude",
-      "Aplicações práticas para desenvolvimento e gestão de produtos",
-      "Referências e exemplos reais",
+      "Configuração e treinamentos de usuários",
+      "Suporte a impressoras de cupom e produção",
+      "Integração com iFood, Keeta e Rappi",
+      "Acompanhamento de incidentes e SLA",
+      "Documentação de rotinas e operação do cliente",
     ],
-    tools: ["Ferramentas de inteligência artificial generativa"],
-    href: "https://notebooklm.google.com/notebook/c4b1bee7-16e7-4f4b-9964-80eeb9ef89ef",
-    linkLabel: "Acessar o notebook The Prompt Engineering Playbook",
+    tools: ["Automação comercial", "Delivery", "Sistemas de faturamento"],
+    href: "https://www.linkedin.com/in/marcos-a-machado/",
+    linkLabel: "Ver perfil no LinkedIn",
   },
   {
-    title: "Universo do Machine Learning",
-    category: "Inteligência artificial · Aprendizado de máquina",
+    title: "Infraestrutura, redes e suporte técnico",
+    category: "TI · infraestrutura",
     description:
-      "Uma visão abrangente de Machine Learning como subcampo da Inteligência Artificial, cobrindo ciclo de vida, aplicações e considerações éticas. Os materiais descrevem etapas de um projeto de ML — da coleta e preparação dos dados à avaliação, implantação e retreinamento — e comparam aprendizado supervisionado, não supervisionado e por reforço. Também abordam algoritmos, desequilíbrio de dados e aplicações em logística, personalização de produtos e manutenção preditiva.",
-    tools: [],
-    href: "https://notebooklm.google.com/notebook/afc377f1-2806-440f-9183-7a4a359badfc",
-    linkLabel: "Ler publicação sobre Machine Learning",
+      "Trabalho em redes cabeadas e sem fio, administração de infraestrutura, suporte a usuários, manutenção de computadores e responsabilidade sobre segurança eletrônica e monitoramento de ambientes.",
+    tools: ["Redes", "Windows Server", "CFTV", "VPN", "Help desk"],
+    href: "https://www.linkedin.com/in/marcos-a-machado/",
+    linkLabel: "Ver perfil profissional",
   },
 ];
 
 export function RecentProjects() {
   return (
     <div className="recent-projects">
-      <p className="project-group-label">Projetos recentes</p>
+      <p className="project-group-label">Projetos e entregas relevantes</p>
       <div className="project-grid project-grid--recent">
         {recentProjects.map((project) => (
           <article
@@ -56,7 +56,7 @@ export function RecentProjects() {
             {project.highlights && (
               <>
                 <p className="project-highlights-label">
-                  O que você vai encontrar:
+                  Destaques da atuação:
                 </p>
                 <ul className="project-highlights">
                   {project.highlights.map((highlight) => (
@@ -80,7 +80,6 @@ export function RecentProjects() {
                 ))}
               </ul>
             )}
-            <p className="project-affiliation">Associados à UNIASSELVI</p>
           </article>
         ))}
       </div>

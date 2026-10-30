@@ -1,53 +1,53 @@
-import profileImage from "../../../assets/img/portife2.jpeg";
+import profileImage from "../../../assets/img/portife2.jpg";
 
 const expertise = [
   {
-    label: "Estratégia de produto",
+    label: "Suporte técnico N1/N2",
     icon: "M4 19V5m0 14h16M8 15l3-4 3 2 5-6",
   },
   {
-    label: "IA generativa",
-    icon: "m12 3 1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3Zm7 13 .8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8L19 16Z",
+    label: "Implantação de sistemas",
+    icon: "M4 6h16v12H4zM4 10h16M8 15h3",
   },
   {
-    label: "IA aplicada a produtos",
-    icon: "m12 3 1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3Zm7 13 .8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8L19 16Z",
-  },
-  {
-    label: "Product Analytics",
+    label: "Automação comercial",
     icon: "M4 19V9h4v10m2 0V5h4v14m2 0v-7h4v7M2 20h20",
   },
   {
-    label: "SaaS e marketplaces",
+    label: "Redes e infraestrutura",
+    icon: "M12 3c4.4 0 8 1.3 8 3s-3.6 3-8 3-8-1.3-8-3 3.6-3 8-3Zm-8 3v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6m-16 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6",
+  },
+  {
+    label: "Delivery e integrações",
     icon: "M4 6h16v12H4zM4 10h16M8 15h3",
   },
   {
-    label: "Meios de pagamento",
-    icon: "M4 6h16v12H4zM4 10h16M8 15h3",
+    label: "Impressoras fiscais",
+    icon: "M7 6h10v5h2v8H5v-8h2V6Zm2 0V4h6v2m-2 7h2",
   },
   {
-    label: "PCI-DSS",
+    label: "Certificados digitais",
     icon: "M12 3 5 6v5c0 4.5 2.9 8.5 7 10 4.1-1.5 7-5.5 7-10V6l-7-3Zm-3 9 2 2 4-4",
   },
   {
-    label: "Power BI",
-    icon: "M4 19V9h4v10m2 0V5h4v14m2 0v-7h4v7M2 20h20",
+    label: "Sistemas de faturamento",
+    icon: "M5 5h14v14H5zM8 9h8M8 13h8M8 17h5",
   },
   {
-    label: "AWS",
-    icon: "M6 18h12a4 4 0 0 0 .7-7.9A7 7 0 0 0 5 9a4.5 4.5 0 0 0 1 9Z",
-  },
-  {
-    label: "Oracle Cloud",
-    icon: "M8 5h8a7 7 0 1 1 0 14H8A7 7 0 1 1 8 5Zm0 4a3 3 0 1 0 0 6h8a3 3 0 1 0 0-6H8Z",
+    label: "CFTV e segurança",
+    icon: "M4 17V7l8-4 8 4v10l-8 4-8-4Zm8-6v6m-4-3h8",
   },
   {
     label: "SQL Server",
     icon: "M12 3c4.4 0 8 1.3 8 3s-3.6 3-8 3-8-1.3-8-3 3.6-3 8-3Zm-8 3v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6m-16 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6",
   },
   {
-    label: "Low-code",
-    icon: "M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z",
+    label: "Python",
+    icon: "M9 3h6v4H9zm0 14h6v4H9zM5 8h14v8H5zm2 2v4h10v-4z",
+  },
+  {
+    label: "Git + GitHub",
+    icon: "M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 12a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm8-8a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM8 8v8m8-8v8m-8 0h8",
   },
 ];
 
@@ -77,22 +77,22 @@ export function HeroSection() {
       <div className="hero-copy">
         <p className="hero-greeting">Olá, eu sou</p>
         <p className="portfolio-eyebrow">
-          IA aplicada <span aria-hidden="true">·</span> Especialista em produto
-          de software e plataformas <span aria-hidden="true">·</span> Product Manager
-          <span aria-hidden="true">·</span> São Paulo, Brasil
+          Analista de TI <span aria-hidden="true">·</span> Suporte técnico
+          <span aria-hidden="true">·</span> Implantação de sistemas
+          <span aria-hidden="true">·</span> Rio de Janeiro, RJ
         </p>
         <h1 id="hero-title">
-          <span>Alessander</span>
+          <span>Marcos Paulo</span>
           {" "}
-          <span>Dutra</span>
+          <span>Antunes Machado</span>
         </h1>
         <p className="portfolio-intro">
-          Produto digital, IA aplicada, dados e integrações conectados a
-          resultados de negócio.
+          Suporte técnico, automação comercial, redes, infraestrutura e
+          implantação de sistemas com foco em atendimento, SLA e qualidade.
         </p>
         <div className="hero-actions">
           <a className="button button-primary" href="#projetos">
-            Ver projetos <span aria-hidden="true">↗</span>
+            Ver experiência <span aria-hidden="true">↗</span>
           </a>
           <a className="button button-secondary" href="#contato">
             Entrar em contato
@@ -101,7 +101,7 @@ export function HeroSection() {
         <ul className="social-links" aria-label="Redes e contato">
           <li>
             <a
-              href="https://linkedin.com/in/alessander-dutra"
+              href="https://www.linkedin.com/in/marcos-a-machado/"
               target="_blank"
               rel="noreferrer"
             >
@@ -116,23 +116,7 @@ export function HeroSection() {
             </a>
           </li>
           <li>
-            <a
-              href="https://github.com/alessander-dutra"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <svg
-                aria-hidden="true"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-              >
-                <path d="M12 .9a11.1 11.1 0 0 0-3.5 21.6c.6.1.8-.2.8-.6v-2c-3.1.7-3.8-1.3-3.8-1.3-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1.7 2.2 3.9 1.6.1-.7.4-1.2.7-1.5-2.5-.3-5.1-1.3-5.1-5.5 0-1.2.4-2.2 1.1-3-.1-.3-.5-1.5.1-3.1 0 0 .9-.3 3.1 1.1a10.6 10.6 0 0 1 5.7 0c2.2-1.4 3.1-1.1 3.1-1.1.6 1.6.2 2.8.1 3.1.7.8 1.1 1.8 1.1 3 0 4.2-2.6 5.2-5.1 5.5.4.3.8 1 .8 2v3c0 .4.2.7.8.6A11.1 11.1 0 0 0 12 .9Z" />
-              </svg>
-              <span className="visually-hidden">GitHub</span>
-            </a>
-          </li>
-          <li>
-            <a href="mailto:alessander.dutra.santos@gmail.com">
+            <a href="mailto:manager.marcos.paulo@gmail.com">
               <svg
                 aria-hidden="true"
                 viewBox="0 0 24 24"
@@ -149,7 +133,7 @@ export function HeroSection() {
             </a>
           </li>
           <li>
-            <a href="https://wa.me/5511940538426" target="_blank" rel="noreferrer">
+            <a href="https://wa.me/5521974860902" target="_blank" rel="noreferrer">
               <svg
                 aria-hidden="true"
                 viewBox="0 0 24 24"
@@ -173,26 +157,26 @@ export function HeroSection() {
           <img
             className="profile-image"
             src={profileImage}
-            alt="Alessander Dutra"
+            alt="Marcos Paulo Antunes Machado"
             fetchPriority="high"
           />
         </div>
         <div className="profile-details">
           <p className="profile-label">PERFIL PROFISSIONAL</p>
-          <h2>Alessander Dutra</h2>
-          <p>IA aplicada · Produto digital</p>
+          <h2>Marcos Paulo Antunes Machado</h2>
+          <p>Analista de TI · Suporte e implantação</p>
           <dl className="profile-facts">
             <div>
               <dt>Especialidade</dt>
-              <dd>Produtos digitais e IA</dd>
+              <dd>Suporte TI e sistemas</dd>
             </div>
             <div>
               <dt>Localização</dt>
-              <dd>São Paulo, Brasil</dd>
+              <dd>Rio de Janeiro – RJ</dd>
             </div>
             <div>
               <dt>Experiência</dt>
-              <dd>Mais de 15 anos</dd>
+              <dd>+25 anos</dd>
             </div>
           </dl>
         </div>

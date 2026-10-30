@@ -1,5 +1,5 @@
 MIT License
 
-Copyright (c) 2025 Alessander Dutra
+Copyright (c) 2026 Marcos Machado
 
 Permission is hereby granted...

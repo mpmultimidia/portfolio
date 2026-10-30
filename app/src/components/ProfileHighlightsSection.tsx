@@ -1,225 +1,37 @@
 const services = [
-  "Gestão de projetos",
-  "Gestão de programas",
-  "Teste de software",
-  "Design de experiência do usuário (UX)",
-  "Consultoria de TI",
-  "Eventos de lançamento de produtos",
-  "Gestão da informação",
-  "Desenvolvimento de banco de dados",
-  "Desenvolvimento de SaaS",
-  "Atividades de integração de equipe",
+  "Suporte técnico N1 e N2",
+  "Implantação e treinamento de sistemas",
+  "Automação comercial para restaurantes e varejo",
+  "Gestão de chamados, incidentes e SLA",
+  "Redes cabeadas e sem fio",
+  "Infraestrutura de servidores e ambientes Windows",
+  "Segurança eletrônica e CFTV",
+  "Integrações com iFood, Keeta e Rappi",
+  "Sistemas de faturamento, estoque e relatórios",
+  "Administração de certificados digitais e VPN",
 ];
 
 const credentials = [
-  ["Agentic Thinking 101", "Udacity", "Set 2026", "2026-09"],
-  ["Reinvention with Agentic AI", "Accenture", "Ago 2026", "2026-08"],
-  [
-    "Agentic AI for Business Leaders",
-    "Udacity",
-    "Jun 2026",
-    "2026-06",
-  ],
-  [
-    "AWS Generative AI Developer (AIP-C01): Prompt Engineering, Prompt Management, & Prompt Flows",
-    "Skillsoft",
-    "Jul 2026",
-    "2026-07",
-  ],
-  [
-    "AWS Generative AI Developer (AIP-C01): Chunking, Embeddings, & Retrieval Design for FM Augmentation",
-    "Skillsoft",
-    "Jul 2026",
-    "2026-07",
-  ],
-  [
-    "AWS Generative AI Developer (AIP-C01): Vector Store Architecture, Metadata, & Data Freshness for RAG",
-    "Skillsoft",
-    "Jul 2026",
-    "2026-07",
-  ],
-  [
-    "AWS Generative AI Developer (AIP-C01): Data Validation & Multimodal Preprocessing for FM Consumption",
-    "Skillsoft",
-    "Jul 2026",
-    "2026-07",
-  ],
-  [
-    "AWS Generative AI Developer (AIP-C01): Customizing Foundation Models & Managing Model Lifecycles",
-    "Skillsoft",
-    "Jul 2026",
-    "2026-07",
-  ],
-  [
-    "AWS Generative AI Developer (AIP-C01): Architecting GenAI Solutions on AWS",
-    "Skillsoft",
-    "Jul 2026",
-    "2026-07",
-  ],
-  [
-    "ChatGPT Prompt Engineering Examples & Use Cases",
-    "Skillsoft",
-    "Jul 2026",
-    "2026-07",
-  ],
-  [
-    "Generative AI APIs for Practical Applications: An Introduction",
-    "Skillsoft",
-    "Jun 2026",
-    "2026-06",
-  ],
-  [
-    "Programação e monitoramento de projetos Agile",
-    "Skillsoft",
-    "Jul 2026",
-    "2026-07",
-  ],
-  ["Planejamento de projetos Agile", "Skillsoft", "Jul 2026", "2026-07"],
-  [
-    "Product Management: Building a Product Strategy",
-    "Skillsoft",
-    "Jul 2026",
-    "2026-07",
-  ],
-  [
-    "Fostering a Growth Mindset in the Age of AI",
-    "Skillsoft",
-    "Jul 2026",
-    "2026-07",
-  ],
-  [
-    "Leading in the Age of Generative AI",
-    "Skillsoft",
-    "Jun 2026",
-    "2026-06",
-  ],
-  ["Advanced Product Analytics", "Tera", "Mar 2026", "2026-03"],
-  ["IA para Gestão de Produtos", "Tera", "Mar 2026", "2026-03"],
-  ["Discovery & Delivery com IA", "Tera", "Fev 2026", "2026-02"],
-  ["Product Strategy", "Tera", "Fev 2026", "2026-02"],
-  [
-    "Introdução à Inteligência Artificial",
-    "IBM",
-    "Jan 2026",
-    "2026-01",
-  ],
-  [
-    "Marketplace Product Strategy",
-    "Tera",
-    "Nov 2025",
-    "2025-11",
-  ],
-  [
-    "Fundamentos de Estratégia de Produtos",
-    "Tera",
-    "Nov 2025",
-    "2025-11",
-  ],
-  ["SaaS Product Strategy", "Tera", "Nov 2025", "2025-11"],
-  [
-    "Inteligência Artificial para Gerentes de Projetos",
-    "LinkedIn Learning",
-    "Nov 2025",
-    "2025-11",
-  ],
-  [
-    "Criação de assistentes de pesquisa com GPTs personalizados no ChatGPT e NotebookLM",
-    "Universidade Presbiteriana Mackenzie",
-    "Nov 2025",
-    "2025-11",
-  ],
-  [
-    "Foundations of Business and Entrepreneurship",
-    "SkillFront",
-    "Nov 2025",
-    "2025-11",
-  ],
-  [
-    "Microcertificação de Análise de Produto (PAC)",
-    "Product School",
-    "Out 2025",
-    "2025-10",
-  ],
-  [
-    "Microcertificação de Inteligência Artificial (AIC)",
-    "Product School",
-    "Out 2025",
-    "2025-10",
-  ],
-  [
-    "Como Aproveitar ao Máximo a IA Generativa na Gestão de Projetos",
-    "LinkedIn Learning",
-    "Out 2025",
-    "2025-10",
-  ],
-  [
-    "Formação Engenheiro de IA Generativa",
-    "Udemy",
-    "Out 2025",
-    "2025-10",
-  ],
-  ["Lovable Workshop", "PM3", "Set 2025", "2025-09"],
-  [
-    "IA Generativa para Profissionais Criativos: Oportunidades, Desafios e Ética",
-    "LinkedIn Learning",
-    "Ago 2025",
-    "2025-08",
-  ],
-  [
-    "Descubra a Inteligência Artificial Generativa",
-    "LinkedIn Learning",
-    "Ago 2025",
-    "2025-08",
-  ],
-  [
-    "Otimize seu Trabalho com o Microsoft Copilot",
-    "LinkedIn Learning",
-    "Ago 2025",
-    "2025-08",
-  ],
-  [
-    "IA Generativa: Oportunidades e Considerações para Líderes Empresariais",
-    "LinkedIn Learning",
-    "Ago 2025",
-    "2025-08",
-  ],
-  [
-    "Prompt Engineering: Aprenda a Conversar com uma IA Generativa",
-    "LinkedIn Learning",
-    "Ago 2025",
-    "2025-08",
-  ],
-  [
-    "IA Generativa: a Evolução da Busca Online Inteligente",
-    "LinkedIn Learning",
-    "Ago 2025",
-    "2025-08",
-  ],
-  [
-    "IA Generativa Prompt Engineering",
-    "LinkedIn Learning",
-    "2025",
-    "2025",
-  ],
-  ["Formação em Liderança", "Escola Conquer", "2024", "2024"],
-  [
-    "Agile Project Management",
-    "Universidade Presbiteriana Mackenzie",
-    "2023",
-    "2023",
-  ],
-  [
-    "Kanban e Scrum",
-    "International Scrum Institute",
-    "2020",
-    "2020",
-  ],
-  ["Lean Six Sigma White Belt", "Grupo Voitto", "2020", "2020"],
-  ["Management 3.0", "OAT Solutions", "2020", "2020"],
-  ["Scrum Essentials", "Itcerts Inc.", "2019", "2019"],
-  ["DevOps Foundation", "Estabilis", "2018", "2018"],
-  ["ITIL v3 Foundations", "Ka Solution", "2014", "2014"],
-  ["SQL Server 2012", "Ka Solution", "2013", "2013"],
+  ["Scrum", "TIVIT Academy", "2022", "2022"],
+  ["Azure", "TIVIT Academy", "2022", "2022"],
+  ["LGPD", "TIVIT Academy", "2022", "2022"],
+  ["Power BI", "TIVIT Academy", "2022", "2022"],
+  ["Inteligência Artificial", "TIVIT Academy", "2022", "2022"],
+  ["Código de Conduta", "TIVIT Academy", "2022", "2022"],
+  ["Gerenciamento de Incidentes", "TIVIT Academy", "2022", "2022"],
+  ["Gerenciamento de SLA", "TIVIT Academy", "2022", "2022"],
+  ["Linux Básico", "TIVIT Academy", "2022", "2022"],
+  ["MACOS2015 Básico/Intermediário", "TIVIT Academy", "2022", "2022"],
+  ["Salesforce", "TIVIT Academy", "2022", "2022"],
+  ["Phishing e Smishing", "TIVIT Academy", "2022", "2022"],
+  ["Windows Server 2005/2008/2012", "Microsoft / suporte técnico", "2025", "2025"],
+  ["Linux – Ubuntu", "Treinamento técnico", "2025", "2025"],
+  ["Microsoft Office 2010/365", "Microsoft", "2025", "2025"],
+  ["CFTV", "Especialização técnica", "2025", "2025"],
+  ["Programação, operação e digitação em microcomputadores", "Formação técnica", "2025", "2025"],
+  ["Mecanografia e processamento de dados", "Formação técnica", "2025", "2025"],
+  ["Teoria de Marketing e Economia", "Formação técnica", "2025", "2025"],
+  ["Firebird, SQL Server, MySQL, Access e FoxPro", "Banco de dados", "2025", "2025"],
 ].map(([title, provider, date, dateTime]) => ({
   title,
   provider,
@@ -238,9 +50,8 @@ export function ProfileHighlightsSection() {
         <p className="section-kicker">Atuação profissional</p>
         <h2 id="profile-highlights-title">Serviços e formação complementar</h2>
         <p>
-          Serviços apresentados no perfil e cursos e credenciais da trajetória
-          em produto, dados, tecnologia e IA. Links individuais de validação
-          não foram informados.
+          Atendimento técnico, implantação, suporte em infraestrutura e
+          automação comercial com foco em eficiência operacional.
         </p>
       </div>
 
@@ -259,7 +70,7 @@ export function ProfileHighlightsSection() {
       >
         <div className="profile-learning-heading">
           <h3>Cursos e credenciais</h3>
-          <p>Seleção recente em destaque; lista completa expansível abaixo.</p>
+          <p>Conhecimentos técnicos e de formação complementares.</p>
         </div>
         <ul className="learning-grid">
           {credentials
