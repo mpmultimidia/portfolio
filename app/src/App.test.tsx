@@ -278,23 +278,17 @@ describe("portfolio application shell", () => {
     );
   });
 
-  it("features the resume-driven project and publication content in the portfolio", () => {
+  it("features the requested digital product portfolio projects in the portfolio", () => {
     render(<App />);
 
     const projects = screen.getByRole("region", { name: "Projetos e entregas" });
-    expect(projects).toHaveTextContent("Implantação de sistemas para restaurantes e varejo");
-    expect(projects).toHaveTextContent("Infraestrutura, redes e suporte técnico");
-    expect(projects).toHaveTextContent("iFood");
-    expect(projects).toHaveTextContent("Rappi");
-
-    const publications = screen.getByRole("region", { name: "Publicações" });
-    expect(
-      within(publications).getByRole("heading", {
-        level: 2,
-        name: "Publicações e destaques",
-      }),
-    ).toBeInTheDocument();
-    expect(publications).toHaveTextContent("Suporte técnico e atendimento em automação comercial");
-    expect(publications).toHaveTextContent("Infraestrutura, redes e segurança eletrônica");
+    expect(projects).toHaveTextContent("Anjo contra violência doméstica");
+    expect(projects).toHaveTextContent("GACFOOD");
+    expect(projects).toHaveTextContent("Radio Serrana WEB FM");
+    expect(projects).toHaveTextContent("StudioHair");
+    expect(projects).toHaveTextContent("RADAR SEGURO");
+    expect(projects).toHaveTextContent("AQUIAOLADO");
+    expect(projects).toHaveTextContent("ChatGPT");
+    expect(projects).toHaveTextContent("Lovable");
   });
 });

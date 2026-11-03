@@ -50,42 +50,44 @@ export function ProjectsSection() {
         <p className="section-kicker">Experiência e atuação</p>
         <h2 id="projects-title">Projetos e entregas</h2>
         <p>
-          Atividades e entregas de suporte, implantação e operação em sistemas de
-          automação comercial, redes, infraestrutura e segurança.
+          Ideação, desenvolvimento e execução de projetos digitais com foco em
+          produto, IA, operação, segurança, comunidade e soluções de impacto
+          real para negócios e usuários.
         </p>
       </div>
       <RecentProjects />
-      <p className="project-group-label">Atividades técnicas</p>
+      <p className="project-group-label">Visão geral de soluções digitais</p>
       <div className="project-grid">
         <article className="project-card">
-          <p className="project-category">Automação comercial</p>
-          <h3>Implantação de sistemas para restaurantes e varejo</h3>
+          <p className="project-category">IA e produto</p>
+          <h3>Anjo contra violência doméstica</h3>
           <p>
-            Suporte e configuração de sistemas de faturamento, estoque,
-            automatização comercial e integração com plataformas de delivery.
+            Conceito de aplicativo voltado à proteção e suporte em situações de
+            violência doméstica, com foco em acolhimento e segurança comunitária.
           </p>
           <ul className="project-tags" aria-label="Tecnologias utilizadas">
-            {["Automação comercial", "iFood", "Keeta", "Rappi", "Sistemas de faturamento"].map(
-              (technology) => (
-                <li key={technology}>{technology}</li>
-              ),
-            )}
+            {["UX", "Segurança", "IA", "Impacto social"].map((technology) => (
+              <li key={technology}>{technology}</li>
+            ))}
           </ul>
         </article>
         <article className="project-card">
-          <p className="project-category">Infraestrutura e TI</p>
-          <h3>Rede, suporte e manutenção de equipamentos</h3>
+          <p className="project-category">SaaS e operação</p>
+          <h3>GACFOOD e seus módulos</h3>
           <p>
-            Administração de redes, suporte a usuários, manutenção de
-            computadores e equipamentos, além de suporte em infraestrutura e
-            segurança eletrônica.
+            Ecossistema para bares e restaurantes com operações de compras,
+            reservas, entregas e gestão do negócio em uma mesma solução.
           </p>
           <ul className="project-tags" aria-label="Tecnologias utilizadas">
-            {["Redes", "Windows Server", "CFTV", "VPN", "Backups"].map(
-              (technology) => (
-                <li key={technology}>{technology}</li>
-              ),
-            )}
+            {[
+              "GACFOOD",
+              "Compras",
+              "Reservas",
+              "Entregas",
+              "Logística",
+            ].map((technology) => (
+              <li key={technology}>{technology}</li>
+            ))}
           </ul>
         </article>
       </div>
